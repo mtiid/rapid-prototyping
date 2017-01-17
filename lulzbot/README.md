@@ -22,7 +22,6 @@ https://www.lulzbot.com/sites/default/files/v2//LulzBot_3D_Printing_Filament_Gui
 File Prep (stl or obj)
 -----------------------------------
 
------- Meshmixer -----
 1. Open Meshmixer on the Windows computer and import the .obj or .stl that you want 
     to print using the "import" button on the left tooldbar.
 2. Use the Analysis tools in Meshmixer to run any relevant checks using the Taz preset
@@ -37,7 +36,6 @@ File Prep (stl or obj)
     Meshmixers 'Export' button to export the file as a .stl. Ensure that 
     'STL ASCII FORMAT' is selected in the 'save as type' drop down menu 
     (.obj is the default).
--------- NETFAB -------
 4. Open your newly created .stl file in Netfabb, this can be done by going to 
     'Project->Add Part' and selecting your file in the file browser.
 5. Run the part repair tool by going to 'Extras->Repair' part. A 'Part Repair' 
