@@ -1,5 +1,7 @@
 In the MTIID Masters Room is an Othermill Pro CNC Mill.
 
+![Othermill Pro](https://othermachine.co/images/othermill-pro-square.jpg)
+
 https://othermachine.co/othermill-pro/
 
 Important Notes
@@ -8,14 +10,14 @@ When the machine is not in use, its power cable should be disconnected and it
 should be covered.
 
 The emergency stop is on the right hand side of the unit, press the button 
-it anything goes wrong; such as the board separating from the bed.
+if anything goes wrong; such as the board separating from the bed.
 
 Make sure to securely attach your material to the bed. If the PCB is not entirely
 covered with double sided stick tape, it will detach from the bed in the 
 middle of milling.
 
 Measure your material every time you are doing a new mill. There is a large
-variance in produce width, length and depth when it comes to acrylic, PCB's and
+variance in produce width, length, and depth when it comes to acrylic, PCB's, and
 virtually every other type of millable material. The Othermill is a high
 precision machine and these variances will make a difference.
 
@@ -30,7 +32,7 @@ spindle back to its home position. After doing so, you are able to move the bed
 into the "loading" position by clicking the appropriate button in OtherPlan.
 
 This will move the material to a location that it can be removed. The OtherMill
-has been effectively reset and if another job is started the mill will 
+has been effectively reset and if another job is started, the mill will 
 retain no memory of its previous job. Adjust for the mistakes and restart your 
 project. 
 
@@ -43,6 +45,11 @@ Working Volume : 5.5 x 4.5 x 1.6  in
 
 Resolution     : 0.001 in
                  0.25  mm
+
+Trace          : 0.006 in
+
+Full tech specs can be found here :
+https://othermachine.co/support/tech-specs/othermill-pro/
 
 Materials
 ---------
@@ -82,6 +89,8 @@ Glass
 Silver chloride (or other powdery materials)
 Chocolate, cheese, food, etc.
 
+More information about materials can be found here:
+https://othermachine.co/support/materials/welcome/
 
 Workflow
 --------
@@ -101,7 +110,22 @@ removed form the bed.
 Use the shop vacuum to vacuum up all of the debris from your mill. Make sure
 to do this in both the loading as well as the home positions.
 
-Replace the 
+Getting Started
+---------------
+
+If you have never used the Othermill before and are interested in using the
+mill for PCB prototyping, it is recommended that you start
+with the "Hello World" project found on the othermachine website :
+https://othermachine.co/support/tutorials/hello-world/
+
+If you do not know how to use EAGLE for the design of circuit boards, and want
+to learn this tutorial teaches you the fundamentals all in a way that is centric
+to the Othermill workflow: https://othermachine.co/support/tutorials/eagle/
+
+Double Sided PCBs
+------------------
+1. It is important when milling double sided boards that you install the
+   alignment bracket.
 
 Tips
 ----
