@@ -24,12 +24,21 @@ precision machine and these variances will make a difference.
 NEVER LEAVE A WORKING MILL UNATTENDED. Stay close, and when you start a mill
 plan on sticking around for the entire duration.
 
+Tools and Bits
+--------------
+We currently have two different bits for the mill. If you are unsure which one
+is which, get them both: the smaller one will be the 1/64" flat end mill.
+
+1. Flat end mill, 1/32"
+2. Flat end mill, 1/64"
+
 Emergency Stop
 --------------
 After pressing the emergency stop, pull the button back out of its locked 
 position. OtherPlan will prompt you to re-home the spindle. This will move the 
 spindle back to its home position. After doing so, you are able to move the bed
 into the "loading" position by clicking the appropriate button in OtherPlan.
+
 
 This will move the material to a location that it can be removed. The OtherMill
 has been effectively reset and if another job is started, the mill will 
@@ -124,8 +133,37 @@ to the Othermill workflow: https://othermachine.co/support/tutorials/eagle/
 
 Double Sided PCBs
 ------------------
+Use this site as a guide :
+https://othermachine.co/support/pcb/double-sided-boards/
+
 1. It is important when milling double sided boards that you install the
-   alignment bracket.
+   alignment bracket. If you are unsure as how to do this follow the guide here
+   : https://othermachine.co/support/techniques/locating-bracket/ 
+   The bracket, three screws, and Allen wrench should be found on top or beside
+   the othermill on the "Hello World" board.
+
+   NOTE: MAKE SURE TO REVERSE THE TOOL BEFORE LOCATING THE BRACKET! We do not
+   have a probe tool and if you do not reverse one of the bits it will be broken
+   by the process. 
+
+   NOTE: ONLY USE FR-1 copperclad, if you use FR-4 the bits WILL BREAK!!!! If
+   you don't know what type of copperclad you have, most likely it is FR-4, FR-1
+   is much rarer.
+
+2. Measure your board with a caliper and enter its dimentions into Otherplan.
+3. Run the appropiate DRC on your board in EAGLE. If you have not already
+   installed them they can be found here:
+   https://othermachine.co/support/pcb/eagle/
+4. Once your board passes the DRC in eagle drag the .brd file into Otherplan.
+5. Select the bits you want to use.
+6. See if Otherplan recognizes any issues with the board, if there are issues
+   correct them in EAGLE.
+7. Before milling the top of the board ensure that you deselect the "Outline"
+   under the "Parts to Mill" section.
+8. Add some offset to the X and Y axis under the "Placement" section. 8mm should
+   be good.
+
+   TODO
 
 Tips
 ----
