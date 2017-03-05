@@ -1,4 +1,6 @@
-# rapid-prototyping
+Rapid-prototyping
+-------------------
+
 A repo to house documentation, tutorials, and projects for the rapid prototyping tools available to the MTIID department @ CalArts.
 
 This Repo has a folder for each of the rapid prototyping machines that can be found

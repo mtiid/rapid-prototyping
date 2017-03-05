@@ -188,5 +188,10 @@ https://www.youtube.com/watch?v=8bacfSyy3iI
 
 IMPORTANT
 --------
+If you are having issues with the quality of the print, cracks, strings, etc, etc. 
+
+Please check out this post for troubleshooting:
+
+https://all3dp.com/common-3d-printing-problems-3d-printer-troubleshooting-guide/
 
 
